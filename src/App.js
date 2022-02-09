@@ -11,7 +11,7 @@ function App() {
     if(count <= 0) {
       number = 1;
     }
-    if(count > 8) {
+    else if(count > 8) {
       number = 8;
     }
     setParagraphs(data.slice(0, number));
